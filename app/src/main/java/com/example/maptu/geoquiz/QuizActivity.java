@@ -150,6 +150,7 @@ public class QuizActivity extends AppCompatActivity {
     private int mark(){
         return Math.round( 2+3*(float)countCorrect()/(float)mQuestionBank.length);
 //        onCreate();
+        // whatever
     }
 
     private void checkAnswer(boolean userPressedTrue) {

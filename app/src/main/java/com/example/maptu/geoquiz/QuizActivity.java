@@ -147,6 +147,7 @@ public class QuizActivity extends AppCompatActivity {
         return i;
     }
 
+
     private int mark(){
         return Math.round( 2+3*(float)countCorrect()/(float)mQuestionBank.length);
 //        onCreate();
